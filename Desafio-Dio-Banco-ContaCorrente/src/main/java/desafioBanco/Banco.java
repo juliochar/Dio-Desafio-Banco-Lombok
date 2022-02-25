@@ -31,7 +31,7 @@ public class Banco {
 		System.out.println("Clientes do Banco " + this.nome);
 		System.out.println("----------------------------------------------");
 		for(Conta c: contas) {
-			System.out.println(c.getCliente().getNome() + "Numero da Conta: " + c.getNumero());
+			System.out.println(c.getCliente().getNome() + " -- Numero da Conta: " + c.getNumero());
 		}
 				
 	}

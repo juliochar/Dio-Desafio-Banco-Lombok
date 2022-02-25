@@ -10,10 +10,13 @@ public class ClassePrincipal {
 		Cliente pessoa2 = new Cliente();
 		pessoa2.setNome("Joana Ester");
 		
+		Cliente pessoa3 = new Cliente();
+		pessoa3.setNome("Carlos Alberto");
+		
 		
 		//Inicia as contas correntes e poupanças
 		Conta cc1 = new ContaCorrente(pessoa1);
-		Conta poupanca1 = new ContaPoupanca(pessoa1);
+		Conta poupanca1 = new ContaPoupanca(pessoa3);
 		Conta poupanca2 = new ContaPoupanca(pessoa2);
 				
 		
